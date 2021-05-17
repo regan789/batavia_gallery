@@ -1,0 +1,249 @@
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 60px !important;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 45px!important;
+  }
+}
+
+
+
+.herobg h1 {
+    float: right;
+    color: #F1F0EB;
+    width: 550px;
+    font-family: grafolita-script, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.375em;
+    letter-spacing: 0px;
+    font-weight: 800;
+    line-height: 100%;
+    margin-top: 50px;
+    text-align: right;
+    padding-bottom: 50%;
+   
+}
+
+.navbar {
+    height: 140px;
+    background-color: #2b3848;
+    margin-top: px font-size:0.875em;
+    margin-bottom: 0px;
+    /*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in photoshop)divided by 16 which equals 0.875em*/
+
+}
+
+h3 {
+    color: #F1F0EB;
+    text-align: center;
+    font-size: 2.4em;
+    font-family: grafolita-script, sans-serif;
+    font-weight: 800;
+}
+
+h4 {
+    color: #F1F0EB
+}
+
+h5 {
+    color: #2b3848;
+    text-align: center;
+    font-size: 2.4em;
+    font-family: grafolita-script, sans-serif;
+    font-weight: 800;
+}
+
+h6 {
+    color: #2b3848;
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+p1 {
+    color: #F1F0EB
+}
+
+a {
+    color: #a59281;
+    font-size: 20px;
+    margin-top: 35px
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    margin-bottom: 0px;
+    margin-top: 0px
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #a59281;
+}
+
+ul.nav a:hover {
+    color: #F1F0EB !important;
+}
+
+.aboutbg {
+    background-color: #f1f0eb;
+
+}
+
+.aboutbg h2 {
+    font-size: 2.4em;
+    font-family: grafolita-script, sans-serif;
+    font-weight: 800;
+}
+
+.toursbg {
+    background-color: #2b3848;
+    padding-right:2%;
+    padding-left: 2%;
+    
+}
+
+a.nav {
+    color: white;
+    text-decoration: none;
+}
+
+.reveiwsbg {
+    background-color: #f1f0eb;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.gettingherebg {
+    background-color: #f1f0eb;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.checked {
+    color: #a59281;
+}
+
+
+.fa {
+    font-size: 80px;
+    width: 30px;
+   
+}
+
+.fa {
+    font-size: 20px;
+    width: 30px;
+   
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color: #a59281;
+
+}
+
+.footerbg {
+    background-color: #182029;
+}
+
+/* Set a specific color for each brand */
+
+.socials {
+    float: right
+}
+
+/* Facebook */
+.fa-facebook {
+    color: #f1f0eb;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #f1f0eb;
+
+}
+
+.fa-instagram {
+    color: #f1f0eb;
+}
+
+.fa-snapchat {
+    color: #f1f0eb;
+}
+
+.herobg {
+    background: url("images/IMG_1816.jpg") no-repeat center center;
+    background-size: cover
+}
+
+
+
+.map-responsive {
+
+    overflow: hidden;
+
+    padding-bottom: 40%;
+
+    position: relative;
+
+    height: 0;
+
+}
+
+.map-responsive iframe {
+
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: absolute;
+
+}
+
+
+
+.responsive {
+    width: 100%;
+    max-width: inherit;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+.images {align-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+
+.centered {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.toursinfo {text-align: left;  margin-bottom: 2%;
+    margin-top: 2%;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
