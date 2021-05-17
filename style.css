@@ -1,3 +1,13 @@
+/*   
+Theme Name: Batavia Gallery Wordpress Site
+Theme URI: http://bataviagallery.com.au
+Description: batavia gallery microsite
+Author: regan anderson
+Author URI: http://bataviagallery.com.au
+Version: 1
+*/
+
+
 @media screen and (max-width: 850px) {
   h1 {
     font-size: 60px !important;
