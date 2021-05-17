@@ -42,7 +42,7 @@
         
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
 
-    
+    <link rel="stylesheet" href="https://use.typekit.net/qdy4oym.css">
        
     <!-- CSS:  -->
 
@@ -74,7 +74,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="images/batavia%20gallery%20logo%20(Custom)%20(2).png" alt="Logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/batavia%20gallery%20logo%20(Custom)%20(2).png" alt="Logo"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">

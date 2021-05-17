@@ -1,11 +1,4 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-<header class="container-fluid herobg">
-    <div class="container">
-        <h1> Explore the dark <br> past of the batavia </h1>
-    </div>
-</header>
-
-
 <section class="container-fluid aboutbg text-center">
     <div class="container">
         <h2> About the Batavia</h2>
@@ -27,7 +20,7 @@
             </div>
     <div class="col-md-4">
         <div>
-            <img src="http://206.189.45.97/~mesh1/wp-content/themes/batavia_gallery/images/IMG_1849tours%20(Small).jpg" class="responsive">
+            <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/IMG_1849tours%20(Small).jpg" class="responsive">
 
             <h4>Batavia Gallery</h4>
             <p1>Tours Avalable Daily</p1>
@@ -36,7 +29,7 @@
     </div>
     <div class="col-md-4">
         <div>
-            <img src="http://206.189.45.97/~mesh1/wp-content/themes/batavia_gallery/images/IMG_1855tours%20(Small).jpg" class="responsive">
+            <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/IMG_1855tours%20(Small).jpg" class="responsive">
             <h4>Remains of the Batavia Shipwreck</h4>
             <p1>Tours Avalable Daily</p1>
             <a class="nav" href="#">MORE</a>
@@ -44,7 +37,7 @@
     </div>
     <div class="col-md-4">
         <div>
-            <img src="http://206.189.45.97/~mesh1/wp-content/themes/batavia_gallery/images/IMG_1821tours%20(Small).jpg" class="responsive">
+            <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/IMG_1821tours%20(Small).jpg" class="responsive">
             <h4>Artifacts From The Batavia Shipwreck</h4>
             <p1>Tours Avalable Daily</p1>
             <a class="nav" href="#">MORE</a>

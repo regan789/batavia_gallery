@@ -19,12 +19,13 @@
                 <!-- div to hold the content in the middle of the page-->
 
                 <div class="col-md-6 text-right">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-snapchat"></a>
                     <br>
-                    <img wam src="images/wamlogo.jpg" height="50">
+                    <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/facebook.png" height="24">
+                    <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/twitter.png" height="24">
+                    <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/instagram.png" height="24">
+                    <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/youtube.png" height="24">
+                    <br>
+                    <img wam src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/wamlogodark.jpg" height="50">
                     <br>
                     <p1>Copyright 2021</p1>
                 </div><!-- container -->
