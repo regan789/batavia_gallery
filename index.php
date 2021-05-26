@@ -1,15 +1,28 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-<section class="container-fluid aboutbg text-center">
-    <div class="container">
-        <h2> About the Batavia</h2>
+<?php get_header(); /* Tells WordPress to include header.php */ ?>
+     <section class="container-fluid aboutbg text-center">
+        <div class="container">
+            
+        
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=2');//look for posts that have the category of 2
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
+            <div><p class="about-text"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>    
+    	
+ <div class="blocker"></div>
+            
+      </div><!--  container-->
+    </section>
 
-        <p class="about-text">
-            On 4 June 1629 the Batavia was shipwrecked on Morning Reef in the Wallabi Group of the Houtman Abrolhos islands. Commander Francisco Pelsaert and select crew set off in the ship’s longboat to seek help and those left endured one of the most horrific mutinies in history.</p>
-
-        <p class="about-text">The Batavia (ba:’ta:via) was the flagship of the Dutch East India Company fleet and left Holland on its maiden voyage 27 October 1628 en route to the East Indies to obtain spices. The ship was under the command of Pelsaert with Adriaan Jacobsz as skipper. Also on board was Jeronimus Cornelisz, who conceived a plan with Jacobsz to take the ship with all its gold, silver and supplies. After Jacobsz deliberately steered the ship off course it was eventually shipwrecked at Morning Reef near Beacon Island.
-        </p>
-    </div>
-</section>
 
 <div class="toursbg">
     <div class="container">
@@ -19,29 +32,34 @@
                 <h3>TOURS</h3>
             </div>
     <div class="col-md-4">
-        <div>
-            <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/IMG_1849tours%20(Small).jpg" class="responsive">
+        <?php $post_id = 277;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><h4>Batavia Gallery</h4>
+            <p1>Tours Avalable Daily</p1><br>MORE</a>';?>
 
-            <h4>Batavia Gallery</h4>
-            <p1>Tours Avalable Daily</p1>
-            <a class="nav" href="#">MORE</a>
-        </div>
     </div>
     <div class="col-md-4">
-        <div>
-            <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/IMG_1855tours%20(Small).jpg" class="responsive">
-            <h4>Remains of the Batavia Shipwreck</h4>
-            <p1>Tours Avalable Daily</p1>
-            <a class="nav" href="#">MORE</a>
-        </div>
+        <?php $post_id = 280;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><h4>Remains of the Batavia Shipwreck</h4>
+            <p1>Tours Avalable Daily</p1><br>MORE</a>';?>
+
     </div>
     <div class="col-md-4">
-        <div>
-            <img src="http://206.189.45.97/~mesh2/wp-content/themes/batavia_gallery/images/IMG_1821tours%20(Small).jpg" class="responsive">
-            <h4>Artifacts From The Batavia Shipwreck</h4>
-            <p1>Tours Avalable Daily</p1>
-            <a class="nav" href="#">MORE</a>
-        </div>
+        <?php $post_id = 284;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><h4>Artifacts From The Batavia Shipwreck</h4>
+            <p1>Tours Avalable Daily</p1><br>MORE</a>';?>
+
     </div>
 </div>
 

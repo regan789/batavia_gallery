@@ -21,6 +21,11 @@ Version: 1
   }
 }
 
+@media screen and (max-width: 760px) {
+  .navbar-header {
+    height: 80px!important;
+  }
+}
 
 
 .herobg h1 {
@@ -41,7 +46,6 @@ Version: 1
 }
 
 .navbar {
-    height: 140px;
     background-color: #2b3848;
     margin-top: px font-size:0.875em;
     margin-bottom: 0px;

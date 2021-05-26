@@ -92,10 +92,3 @@
     </div>
 </nav>
 
-<header class="container-fluid herobg">
-    <div class="container">
-        <h1> Explore the dark <br> past of the batavia </h1>
-    </div>
-</header>
-
-
